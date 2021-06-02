@@ -1,0 +1,172 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar,
+section,
+footer {
+    padding: 3rem 5% 0rem;
+}
+
+/* heading  */
+.section-heading {
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.5;
+}
+
+/* fonts  */
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* button  */
+.blue-button {
+    padding: 0.5rem 4rem 0.5rem;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    border: 0;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: hsl(224, 92%, 64%);
+}
+
+
+/* links */
+a{
+    color:hsl(238, 22%, 44%)
+}
+
+
+
+/* input  */
+input {
+    padding: 0.6rem 6rem 0.6rem 1rem;
+    border: 1px solid hsl(243, 87%, 12%);
+    font-size: 0.9rem;
+}
+
+.nav-item{
+    margin-left: 2rem;
+}
+
+/* section1 */
+.section1 {
+    background-image: url("images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 17rem;
+}
+
+.section1 .row {
+    align-items: center;
+}
+
+.section1-text {
+    padding: 0 6rem 0 0;
+    font-size: 18px;
+}
+
+.btn-div {
+    display: flex;
+}
+
+/* section2 */
+.section2 {
+    background-color: hsl(240, 75%, 98%);
+}
+
+.section2 p {
+    padding: 1.3rem 6rem 0 0;
+}
+
+.blue-link, .blue-link:hover{
+    color: hsl(170, 45%, 43%);
+}
+
+.card {
+    padding: 1rem 1.6rem;
+    border-radius: 8px;
+    width: 22rem;
+    margin: 2rem 0 7rem;
+    color: hsl(238, 22%, 44%);
+    font-size: 14px;
+    box-shadow: 0 0 20px -12px;
+}
+
+.card p {
+    padding-right: 0;
+}
+
+.profile-flex {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.quotes {
+    width: 1rem;
+}
+
+.profile-pic {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    margin-right: 0.7rem;
+}
+
+.name {
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+}
+
+/* section3  */
+.section3 {
+    padding: 5rem 5% 4rem ;
+background-color: hsl(238, 22%, 44%);
+color: white;
+}
+
+.section3 h2{
+    font-weight: 700;
+}
+.section3 p{
+    padding: 1.5rem 9rem 0 0 ;
+}
+.section3 input{
+    border: 0;
+    width: 30rem 
+}
+.section3 button{
+    margin: 1rem 0 0 ;
+    padding: 0.6rem 5rem 0.6rem ;
+}
+
+/* footer  */
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding-bottom: 2rem;
+}
+.footer-logo{
+    color: white;
+    margin: 3rem  0 2rem;
+}
+.contact{
+    display: flex;
+    align-items:baseline;
+}
+.contact img{
+    margin-right: 1rem ;
+    height: 1rem;
+}
+.social-link{
+    margin: 0 0.7rem;
+}
